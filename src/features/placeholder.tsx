@@ -3,11 +3,11 @@ import { StyleSheet } from "react-native";
 import { ThemedText } from "@/components/themed-text";
 import { ThemedView } from "@/components/themed-view";
 
-export default function TodayScreen() {
+export default function PlaceholderFeature({ title }: { title: string }) {
   return (
     <ThemedView style={styles.container}>
-      <ThemedText type="title">오늘</ThemedText>
-      <ThemedText>오늘의 관리 기록을 확인하고 업데이트하세요.</ThemedText>
+      <ThemedText type="title">{title}</ThemedText>
+      <ThemedText>{title} 화면입니다.</ThemedText>
     </ThemedView>
   );
 }
