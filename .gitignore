@@ -1,9 +1,7 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
 # dependencies
 node_modules/
 
-# Expo
+# Expo (generated, per-app)
 .expo/
 dist/
 web-build/
@@ -36,8 +34,6 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-example
-
-# generated native folders
-/ios
-/android
+# Claude Code internal artifacts
+C:Usersgnsqu*
+C?Usersgnsqu*
